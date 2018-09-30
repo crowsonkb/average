@@ -1,7 +1,7 @@
 average
 =======
 
-Exponentially weighted moving averages with initialization bias correction.
+Exponentially weighted moving averaging with initialization bias correction.
 
 Usage
 -----

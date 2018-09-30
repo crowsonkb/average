@@ -1,4 +1,4 @@
-"""Exponentially weighted moving averages with initialization bias correction."""
+"""Exponentially weighted moving averaging with initialization bias correction."""
 
 from numbers import Number
 
@@ -6,7 +6,7 @@ import numpy as np
 
 
 class EWMA:
-    """Exponentially weighted moving averages with initialization bias correction.
+    """Exponentially weighted moving averaging with initialization bias correction.
 
     :param shape: The NumPy array shape to use. Defaults to an empty tuple (a scalar).
     :type shape: tuple[int]

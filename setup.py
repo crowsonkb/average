@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='average',
     version='1.0',
-    description='Exponentially weighted moving averages with initialization bias correction.',
+    description='Exponentially weighted moving averaging with initialization bias correction.',
     long_description=open('README.rst').read(),
     url='https://github.com/crowsonkb/average',
     author='Katherine Crowson',
