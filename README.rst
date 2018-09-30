@@ -34,3 +34,8 @@ You can also create running averages shaped like NumPy arrays by supplying a sha
    print(avg.get())  # Prints a 4x4 identity matrix.
 
 For example, you could use ``EWMA`` to maintain a running average of HxWx3 video frames, if the frames are in NumPy array format or convertible to it.
+
+Notes
+-----
+
+The formula for an exponentially weighted moving average with initialization bias correction is from "`Adam: A Method for Stochastic Optimization <https://arxiv.org/abs/1412.6980>`_" by Kingma and Ba.
